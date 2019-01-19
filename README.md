@@ -2,7 +2,9 @@
 This repository includes python scripts I've created for personal use. 
 
 # Crontab updater
-I wrote a small python script to help keep /etc/crontab on my CentOS machines updated consistently. You can modify the scripts to update text files also. I've written 2 scripts, one for python 2.7.x, and one for python 3.6.x.
+I have created python scripts to help automate updating /etc/crontab on my CentOS machines. I've written 2 scripts, one for python 2.7.x, and one for python 3.6.x. When executed, the script searches for certain strings. If no matching string is found, an entry will be added to /etc/crontab.
+
+You can modify the scripts to update other text files also. 
 
 ## crontab-updater-py27.py
 - Use on CentOS 7 to update /etc/crontab idempotently.
